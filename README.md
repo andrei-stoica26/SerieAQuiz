@@ -19,6 +19,6 @@ Run the quiz with:
 
 ```node QuizApp.js```
 
-Open it by typing ```http://localhost:3000/``` into a browser.
+Open it by typing ```http://localhost:3000/``` into a browser address bar.
 
 ![image](https://github.com/andrei-stoica26/SerieAQuiz/assets/44497020/e8ba73f8-251c-41cf-b06b-85370a0ff711)
