@@ -1,5 +1,5 @@
 # SerieAQuiz
-A Node.js quiz about Serie A goalscoring records using programmatic questions.
+A Node.js quiz about Serie A goalscoring records with programmatic questions.
 
 The questions are built based upon a table scraped from: https://en.wikipedia.org/wiki/List_of_Serie_A_players_with_100_or_more_goals'. Run `main.py` to generate the questions.
 
