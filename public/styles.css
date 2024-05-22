@@ -1,0 +1,48 @@
+body {
+  background: linear-gradient(180deg, #66ff66 0%, #66ff66 50%, #33cc33 50%, #33cc33 100%);
+  background-size: 100% 55px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1, p, a {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgba(255, 0, 10, 0.7);
+  border-radius: 5px;
+  color: white;
+}
+
+a:hover {
+  background-color: rgba(255, 100, 100, 0.7);
+}
+
+form {
+  background-color: rgba(255, 0, 10, 0.7);
+  padding: 15px;
+  border-radius: 0px;
+  max-width: 600px;
+  margin: auto;
+  color: white;
+}
+
+label, input[type="radio"] {
+  color: white;
+}
+
+button {
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: limegreen;
+}

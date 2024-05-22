@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz result</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+  <h1>Quiz result</h1>
+  <p>Your score is <%= score %> out of <%= total %>.
+  
+  <% if (score <= 8) { %>
+    Better luck next time!
+  <% } else if (score <= 12) { %>
+    Not bad! Keep improving!
+  <% } else if (score <= 16){ %>
+    Impressive! You are almost a Serie A expert!
+  <% } else if (score <= 19){ %>
+    Outstanding! You are a true Serie A expert!
+  <% } else { %>
+    Perfect!
+  <% } %> </p>
+  
+  <a href="/quiz">Take the quiz again</a>
+</body>
+</html>

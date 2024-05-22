@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Serie A Goalscorers Quiz</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+  <h1>Serie A Goalscorers Quiz</h1>
+  <form action="/result" method="post">
+    <% questions.forEach((q, index) => { %>
+      <div>
+        <%= q.question %> <br>
+        <% q.choices.forEach(choice => { %>
+          <input type="radio" name="q<%= index %>" value="<%= choice %>" required> <%= choice %><br>
+        <% }) %> <br>
+      </div>
+    <% }) %>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
