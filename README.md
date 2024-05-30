@@ -21,4 +21,5 @@ Run the quiz with:
 
 Open it by typing ```http://localhost:3000/``` into a browser address bar.
 
-![image](https://github.com/andrei-stoica26/SerieAQuiz/assets/44497020/e8ba73f8-251c-41cf-b06b-85370a0ff711)
+![image](https://github.com/andrei-stoica26/SerieAQuiz/assets/44497020/a2dd6fee-5f37-4897-9b21-805bef066443)
+
