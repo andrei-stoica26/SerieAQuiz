@@ -1,0 +1,8 @@
+__pycache__/
+node_modules/
+app.js
+public/final.css
+public/good.css
+public/test.html
+package.json
+package-lock.json
