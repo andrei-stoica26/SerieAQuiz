@@ -1,48 +1,48 @@
 body {
-  background: #f4f4f4;
-  color: #333;
-  font-family: "Arial", sans-serif;
+  background: linear-gradient(180deg, #66ff66 0%, #66ff66 50%, #33cc33 50%, #33cc33 100%);
+  background-size: 100% 55px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
 }
 
 h1, p, a {
-  color: #333;
+  color: white;
 }
 
 a {
   text-decoration: none;
-  padding: 10px 15px;
-  background-color: #007bff;
-  border-radius: 4px;
+  padding: 10px;
+  background-color: rgba(255, 0, 10, 0.7);
+  border-radius: 5px;
   color: white;
 }
 
 a:hover {
-  background-color: #0056b3;
+  background-color: rgba(255, 100, 100, 0.7);
 }
 
 form {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 0, 10, 0.7);
+  padding: 15px;
+  border-radius: 0px;
   max-width: 600px;
-  margin: 20px auto;
-  color: #333;
+  margin: auto;
+  color: white;
 }
 
 label, input[type="radio"] {
-  color: #333;
+  color: white;
 }
 
 button {
-  background-color: #007bff;
+  background-color: darkgreen;
   color: white;
   border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
+  padding: 10px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: limegreen;
 }
